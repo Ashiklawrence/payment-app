@@ -1,0 +1,67 @@
+.payment-contain{
+    max-width: 700px;
+    padding-top: 2%;
+
+    .tab-contain{
+        max-width: 600px;
+        height: 600px;
+        margin-top: 20px;
+        border: 1px solid rgb(117, 117, 117) !important;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 15px;
+
+        .row{
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    
+}
+.logoutcol{
+   a{
+    display: flex;
+    float: right;
+   }
+    img{
+        
+        width: 30px;
+        height: 30px;
+    }
+}
+.due-contain{
+    height: 120px;
+    // background-color: black;
+    border-radius: 15px;
+    border: 2px solid rgb(120, 207, 236);
+    background-color: rgb(120, 207, 236);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    p{
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    h5{
+        color: white;
+        font-weight: bold;
+    }
+
+}
+.current-contain{
+    height: 120px;
+    // background-color: black;
+    border-radius: 15px;
+    border: 2px solid rgb(236, 120, 215);
+    background-color: rgb(236, 120, 215);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.duesection{
+    .row{
+        width: 100%;
+    }
+}

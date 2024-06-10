@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 export class LoginComponent {
   constructor(private _router:Router){}
   handleLogin(){
+    console.log('handle login');
+    
     this._router.navigate(['selectstudent'])
 
   }

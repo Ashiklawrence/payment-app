@@ -1,0 +1,32 @@
+.mat-typography{
+   overflow-y: hidden;
+}
+.selectstucontain{
+    padding-top: 15%;
+
+}
+.student-card{
+    max-width: 600px;
+    height: 110px;
+    // background-color: black;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(117, 117, 117) !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: .5s ease-in-out;
+    .row{
+        width: 100% !important;
+    }
+
+    img{
+        height: 80px;
+        max-width: 80px;
+        border-radius: 50%;
+    }
+}
+.student-card:hover{
+    border-color:rgba(2, 75, 222, 0.1) !important;
+    box-shadow: rgba(2, 75, 222, 0.1) 0px 4px 12px;
+
+}
+

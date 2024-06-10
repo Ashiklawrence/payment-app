@@ -1,8 +1,69 @@
 <div class="container payment-contain">
     <mat-tab-group [color]="'warn'" mat-align-tabs="center">
-        <mat-tab label="Paid">
+        <mat-tab label="Dues">
             <div class="container tab-contain">
-                <div class="row ms-2">
+                <div class="row ms-2 mt-4">
+                    <div class="col-2">
+                        <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    </div>
+                    <div class="col-6 stu-col text-center d-flex align-items-center">
+                        <p class="mt-2">Student Name</p>
+                    </div>
+                    <div class="col-4 logoutcol">
+                        <a type="button"><img src="../../../assets/images/icons8-logout-48.png" alt=""></a>
+                        
+                    </div>
+                </div>
+                <section class="duesection ms-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="container due-contain">
+                                <div class="row due-contain-row">
+                                    <div class="col-8">
+                                        <p>Dues to be paid</p>
+                                        <h5><span>&#8377;</span> 10050</h5>
+                                    </div>
+                                    <div class="col-4 btncolpay">
+                                        <button class="btn btn-primary paynowbtn">
+                                            Pay Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="container current-contain text-center">
+                                <p>Currently paying</p>
+                                <h5><span>&#8377;</span> 10050</h5>
+    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="allpaymentssection">
+                    <div class="container amount-contain">
+                        <div class="row amount-contain-row">
+                            <div class="col-6 ms-2">
+                                <p class="colp">Late fee fine</p>
+                                <p class="duedate">Due date 01/08/2024</p>
+                            </div>
+                            <div class="col-3 amount-col">
+                                <h4><span>&#8377;</span>10500</h4>
+                            </div>
+                            <div class="col-2 d-flex mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </section>
+            </div>
+           
+        </mat-tab>
+        <mat-tab label="Upcoming">
+            <div class="container tab-contain">
+                <div class="row ms-2 mt-4">
                     <div class="col-2">
                         <img src="https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     </div>
@@ -15,30 +76,50 @@
                     </div>
                 </div>
                 <section class="duesection ms-4">
-                    <div class="row w-100">
-                        <div class="col">
+                    <div class="row">
+                        <div class="col-sm-6">
                             <div class="container due-contain">
-                                <div class="row">
+                                <div class="row due-contain-row">
                                     <div class="col-8">
                                         <p>Dues to be paid</p>
-                                        <h5>10050</h5>
+                                        <h5><span>&#8377;</span> 10050</h5>
                                     </div>
-                                    <div class="col-4">
-
+                                    <div class="col-4 btncolpay">
+                                        <button class="btn btn-primary paynowbtn">
+                                            Pay Now
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="container current-contain">
+                        <div class="col-sm-6">
+                            <div class="container current-contain text-center">
+                                <p>Currently paying</p>
+                                <h5><span>&#8377;</span> 10050</h5>
     
                             </div>
                         </div>
                     </div>
                 </section>
+                <section class="allpaymentssection">
+                    <div class="container amount-contain">
+                        <div class="row amount-contain-row">
+                            <div class="col-6 ms-2">
+                                <p class="colp">Late fee fine</p>
+                                <p class="duedate">Last due date:01/08/2024</p>
+                            </div>
+                            <div class="col-3 amount-col">
+                                <h4><span>&#8377;</span>10500</h4>
+                            </div>
+                            <div class="col-2 d-flex mt-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </section>
             </div>
-           
         </mat-tab>
-        <mat-tab label="Dues"> Content 2 </mat-tab>
     </mat-tab-group> 
 </div>

@@ -1,21 +1,25 @@
-.mat-typography{
-   overflow-y: hidden;
-}
+// .mat-typography{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
 .selectstucontain{
-    padding-top: 15%;
-
+    padding-top: calc((100vh - 250px)/2);
+    // padding-top: calc(100% - 20px);
 }
 .student-card{
-    max-width: 600px;
+    max-width: 500px;
     height: 110px;
     // background-color: black;
-    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 15px;
-    border: 1px solid rgb(117, 117, 117) !important;
+    // border: 1px solid rgb(117, 117, 117) !important;
+    border: 1px solid rgba(2, 75, 222, 0.1) !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    transition: .5s ease-in-out;
+    transition: .2s ease-in-out;
     .row{
         width: 100% !important;
+        column-gap: 30px;
     }
 
     img{
@@ -25,8 +29,15 @@
     }
 }
 .student-card:hover{
-    border-color:rgba(2, 75, 222, 0.1) !important;
-    box-shadow: rgba(2, 75, 222, 0.1) 0px 4px 12px;
+    transform: scale(.99);
 
 }
+
+@media only screen   and (max-height:1400px) {
+    .selectstucontain{
+      padding-top: 200px;
+    }
+  
+  
+  }
 

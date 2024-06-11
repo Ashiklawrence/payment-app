@@ -1,6 +1,12 @@
+// .mat-typography{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   vertical-align: middle;
+// }
 .logincontainer{
-    max-width: 500px;
-    padding-top: 20%;
+  max-width: 500px;
+  padding-top: calc((100vh - 120px)/2);
 }
 .loginput{
     display: inline-block;
@@ -45,3 +51,12 @@
 
 
   }
+
+
+@media only screen  and (max-height:1400px) {
+  .logincontainer{
+    padding-top: 300px;
+  }
+
+
+}
